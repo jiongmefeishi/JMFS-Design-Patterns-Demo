@@ -1,5 +1,6 @@
 package me.jmfs.pattern.factory;
 
+import me.jmfs.pattern.constant.ProductEnum;
 import me.jmfs.pattern.product.Product;
 import me.jmfs.pattern.product.concrete.ConcreteProductA;
 import me.jmfs.pattern.product.concrete.ConcreteProductB;
@@ -19,15 +20,15 @@ import me.jmfs.pattern.product.concrete.ConcreteProductB;
 public class Factory {
 
     // 静态工厂方法
-    public static Product factoryMethod(String arg) {
+    public static Product factoryMethod(ProductEnum productType) {
 
         Product product = null;
         // 工厂类提供了一个静态工厂方法供客户端使用，根据所传入的参数不同可以创建不同的产品对象
-        if (arg.equalsIgnoreCase("A")) {
+        if (ProductEnum.A.equals(productType)) {
             product = new ConcreteProductA();
             //初始化设置product
         }
-        else if (arg.equalsIgnoreCase("B")) {
+        else if (ProductEnum.B.equals(productType)) {
             product = new ConcreteProductB();
             //初始化设置product
         }
