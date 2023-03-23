@@ -29,7 +29,8 @@
     <list default="true" id="c6e0cec7-a1a4-4bb0-8059-a7ee982232a9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-patterns-02-factory-method-pattern/src/main/java/me/jmfs/pattern/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns-02-factory-method-pattern/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns-02-factory-method-pattern/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns-03-abstract-factory-pattern/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns-03-abstract-factory-pattern/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,6 +122,9 @@
       <updated>1679045091437</updated>
       <workItem from="1679045093251" duration="4221000" />
       <workItem from="1679396718629" duration="3995000" />
+      <workItem from="1679448057176" duration="64000" />
+      <workItem from="1679556910301" duration="1136000" />
+      <workItem from="1679558165476" duration="2692000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 简单工厂模式">
       <created>1679045427822</created>
@@ -157,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679397276790</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: 抽象工厂模式">
+      <created>1679448108216</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1679448108217</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,7 +201,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: 简单工厂模式" />
     <MESSAGE value="feat: 工厂模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 工厂模式" />
+    <MESSAGE value="feat: 抽象工厂模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 抽象工厂模式" />
   </component>
   <component name="WindowStateProjectService">
     <state x="448" y="103" key="#Project_Structure" timestamp="1679046425118">

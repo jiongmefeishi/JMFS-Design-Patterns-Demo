@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>me.jmfs</groupId>
-    <artifactId>design-patterns-03-abstract-factory-pattern</artifactId>
+    <artifactId>design-patterns-04-singleton-pattern</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>design-patterns-03-abstract-factory-pattern</name>
-    <description>抽象工厂模式</description>
+    <name>design-patterns-04-singleton-pattern</name>
+    <description>单例模式</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>
