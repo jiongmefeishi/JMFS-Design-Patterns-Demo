@@ -5,10 +5,10 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/JMFS-Design-Patterns-Demo.iml" filepath="$PROJECT_DIR$/.idea/JMFS-Design-Patterns-Demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/design-patterns-01-simple-factory-pattern/design-patterns-01-simple-factory-pattern.iml" filepath="$PROJECT_DIR$/design-patterns-01-simple-factory-pattern/design-patterns-01-simple-factory-pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/design-patterns-02-factory-method-pattern/design-patterns-02-factory-method-pattern.iml" filepath="$PROJECT_DIR$/design-patterns-02-factory-method-pattern/design-patterns-02-factory-method-pattern.iml" />
-      <module fileurl="file://$PROJECT_DIR$/design-patterns-03-abstract-factory-pattern/design-patterns-02-factory-method-pattern (1).iml" filepath="$PROJECT_DIR$/design-patterns-03-abstract-factory-pattern/design-patterns-02-factory-method-pattern (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/design-patterns-03-abstract-factory-pattern/design-patterns-03-abstract-factory-pattern.iml" filepath="$PROJECT_DIR$/design-patterns-03-abstract-factory-pattern/design-patterns-03-abstract-factory-pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/design-patterns-04-singleton-pattern/design-patterns-04-singleton-pattern.iml" filepath="$PROJECT_DIR$/design-patterns-04-singleton-pattern/design-patterns-04-singleton-pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/design-patterns-05-prototype-pattern/design-patterns-05-prototype-pattern.iml" filepath="$PROJECT_DIR$/design-patterns-05-prototype-pattern/design-patterns-05-prototype-pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/design-patterns-06-builder-pattern/design-patterns-06-builder-pattern.iml" filepath="$PROJECT_DIR$/design-patterns-06-builder-pattern/design-patterns-06-builder-pattern.iml" />
     </modules>
   </component>
 </project>

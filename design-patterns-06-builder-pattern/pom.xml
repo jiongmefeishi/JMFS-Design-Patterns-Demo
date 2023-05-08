@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>me.jmfs</groupId>
-    <artifactId>design-patterns-05-prototype-pattern</artifactId>
+    <artifactId>design-patterns-06-builder-pattern</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>design-patterns-05-prototype-pattern</name>
-    <description>原型模式</description>
+    <name>design-patterns-06-builder-pattern</name>
+    <description>建造者模式</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>

@@ -27,9 +27,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6e0cec7-a1a4-4bb0-8059-a7ee982232a9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns-05-prototype-pattern/design-patterns-05-prototype-pattern.iml" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns-05-prototype-pattern/design-patterns-05-prototype-pattern.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns-05-prototype-pattern/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns-05-prototype-pattern/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +143,11 @@
       <workItem from="1679396718629" duration="3995000" />
       <workItem from="1679448057176" duration="64000" />
       <workItem from="1679556910301" duration="1136000" />
-      <workItem from="1679558165476" duration="7004000" />
+      <workItem from="1679558165476" duration="8174000" />
+      <workItem from="1679636138151" duration="772000" />
+      <workItem from="1680601168737" duration="265000" />
+      <workItem from="1680601438834" duration="1374000" />
+      <workItem from="1683516803279" duration="1767000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 简单工厂模式">
       <created>1679045427822</created>
@@ -193,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679562567715</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feat: 原型模式：浅拷贝、深拷贝">
+      <created>1679570439699</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1679570439700</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +240,8 @@
     <MESSAGE value="feat: 工厂模式" />
     <MESSAGE value="feat: 抽象工厂模式" />
     <MESSAGE value="feat: 单例模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 单例模式" />
+    <MESSAGE value="feat: 原型模式：浅拷贝、深拷贝" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 原型模式：浅拷贝、深拷贝" />
   </component>
   <component name="WindowStateProjectService">
     <state x="448" y="103" key="#Project_Structure" timestamp="1679046425118">
@@ -247,34 +260,34 @@
       <screen x="0" y="25" width="1920" height="1000" />
     </state>
     <state x="698" y="276" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.205.1440.875/0.25.1920.1000@0.25.1920.1000" timestamp="1679399128418" />
-    <state width="1878" height="269" key="GridCell.Tab.0.bottom" timestamp="1679569585173">
+    <state width="1878" height="269" key="GridCell.Tab.0.bottom" timestamp="1680601433710">
       <screen x="0" y="25" width="1920" height="1000" />
     </state>
-    <state width="1878" height="269" key="GridCell.Tab.0.bottom/1920.205.1440.875/0.25.1920.1000@0.25.1920.1000" timestamp="1679569585173" />
-    <state width="1878" height="269" key="GridCell.Tab.0.center" timestamp="1679569585172">
+    <state width="1878" height="269" key="GridCell.Tab.0.bottom/1920.205.1440.875/0.25.1920.1000@0.25.1920.1000" timestamp="1680601433710" />
+    <state width="1878" height="269" key="GridCell.Tab.0.center" timestamp="1680601433710">
       <screen x="0" y="25" width="1920" height="1000" />
     </state>
-    <state width="1878" height="269" key="GridCell.Tab.0.center/1920.205.1440.875/0.25.1920.1000@0.25.1920.1000" timestamp="1679569585172" />
-    <state width="1878" height="269" key="GridCell.Tab.0.left" timestamp="1679569585171">
+    <state width="1878" height="269" key="GridCell.Tab.0.center/1920.205.1440.875/0.25.1920.1000@0.25.1920.1000" timestamp="1680601433710" />
+    <state width="1878" height="269" key="GridCell.Tab.0.left" timestamp="1680601433709">
       <screen x="0" y="25" width="1920" height="1000" />
     </state>
-    <state width="1878" height="269" key="GridCell.Tab.0.left/1920.205.1440.875/0.25.1920.1000@0.25.1920.1000" timestamp="1679569585171" />
-    <state width="1878" height="269" key="GridCell.Tab.0.right" timestamp="1679569585173">
+    <state width="1878" height="269" key="GridCell.Tab.0.left/1920.205.1440.875/0.25.1920.1000@0.25.1920.1000" timestamp="1680601433709" />
+    <state width="1878" height="269" key="GridCell.Tab.0.right" timestamp="1680601433710">
       <screen x="0" y="25" width="1920" height="1000" />
     </state>
-    <state width="1878" height="269" key="GridCell.Tab.0.right/1920.205.1440.875/0.25.1920.1000@0.25.1920.1000" timestamp="1679569585173" />
+    <state width="1878" height="269" key="GridCell.Tab.0.right/1920.205.1440.875/0.25.1920.1000@0.25.1920.1000" timestamp="1680601433710" />
     <state x="617" y="231" key="RollbackChangesDialog" timestamp="1679396357264">
       <screen x="0" y="25" width="1920" height="1000" />
     </state>
     <state x="617" y="231" key="RollbackChangesDialog/1920.205.1440.875/0.25.1920.1000@0.25.1920.1000" timestamp="1679396357264" />
-    <state x="469" y="161" key="SettingsEditor" timestamp="1679569154673">
+    <state x="469" y="161" key="SettingsEditor" timestamp="1680601489638">
       <screen x="0" y="25" width="1920" height="1000" />
     </state>
-    <state x="469" y="161" key="SettingsEditor/1920.205.1440.875/0.25.1920.1000@0.25.1920.1000" timestamp="1679569154673" />
-    <state x="560" y="249" key="Vcs.Push.Dialog.v2" timestamp="1679562578764">
+    <state x="469" y="161" key="SettingsEditor/1920.205.1440.875/0.25.1920.1000@0.25.1920.1000" timestamp="1680601489638" />
+    <state x="560" y="249" key="Vcs.Push.Dialog.v2" timestamp="1679570441640">
       <screen x="0" y="25" width="1920" height="1000" />
     </state>
-    <state x="560" y="249" key="Vcs.Push.Dialog.v2/1920.205.1440.875/0.25.1920.1000@0.25.1920.1000" timestamp="1679562578764" />
+    <state x="560" y="249" key="Vcs.Push.Dialog.v2/1920.205.1440.875/0.25.1920.1000@0.25.1920.1000" timestamp="1679570441640" />
     <state x="756" y="307" key="chooseDestDirectoryDialog" timestamp="1679399148916">
       <screen x="0" y="25" width="1920" height="1000" />
     </state>
