@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>me.jmfs</groupId>
-    <artifactId>design-patterns-07-adapter-pattern </artifactId>
+    <artifactId>design-patterns-07-adapter-pattern</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>design-patterns-07-adapter-pattern </name>
+    <name>design-patterns-07-adapter-pattern</name>
     <description>适配器模式</description>
     <properties>
         <java.version>1.8</java.version>

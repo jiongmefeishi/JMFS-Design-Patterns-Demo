@@ -12,7 +12,7 @@
     <artifactId>custom-design-patterns-01-plugin-and-command-pattern</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>custom-design-patterns-01-plugin-and-command-pattern</name>
-    <description>自定义插件和命令模式</description>
+    <description>自定义插件和CQRS命令模式</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>
