@@ -27,8 +27,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6e0cec7-a1a4-4bb0-8059-a7ee982232a9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/java/me/jmfs/pattern/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/java/me/jmfs/pattern/sdk/plugin/example/ExampleQueryThirdLoginVerificationResultCmd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/java/me/jmfs/pattern/sdk/plugin/example/ExtensionExecuteExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/java/me/jmfs/pattern/sdk/plugin/execute/AbstractExecutableExtension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/java/me/jmfs/pattern/sdk/plugin/execute/ExtensionExecutable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/java/me/jmfs/pattern/sdk/plugin/extension/ThirdAuthTwoFactorTokenExtension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/java/me/jmfs/pattern/sdk/plugin/extension/ThirdLoginVerificationExtension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/java/me/jmfs/pattern/sdk/plugin/extension/annotation/ExtensionDescriptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/java/me/jmfs/pattern/sdk/plugin/factory/ExtensionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/java/me/jmfs/pattern/sdk/plugin/point/ExtensionPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/java/me/jmfs/pattern/sdk/plugin/point/ExtensionPointType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/java/me/jmfs/pattern/sdk/plugin/point/IExtensionPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/java/me/jmfs/pattern/sdk/plugin/request/ThirdLoginVerificationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/java/me/jmfs/pattern/sdk/plugin/request/ThirdTwoFactorAuthRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/java/me/jmfs/pattern/sdk/plugin/request/base/ExecutableExtensionRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/java/me/jmfs/pattern/sdk/plugin/request/base/ExtensionRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/java/me/jmfs/pattern/sdk/plugin/result/ThirdLoginVerificationResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/java/me/jmfs/pattern/sdk/plugin/result/ThirdTwoFactorAuthExecutionResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/java/me/jmfs/pattern/sdk/plugin/rpc/ConnectionsSupervisor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/java/me/jmfs/pattern/sdk/plugin/rpc/HttpRpcClientResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/java/me/jmfs/pattern/sdk/plugin/rpc/HttpRpcClientUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom-design-patterns-01-plugin-pattern/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom-design-patterns-01-plugin-pattern/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom-design-patterns-01-plugin-pattern/src/main/java/me/jmfs/pattern/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom-design-patterns-01-plugin-pattern/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns-01-simple-factory-pattern/design-patterns-01-simple-factory-pattern.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,10 +97,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/design-patterns-03-abstract-factory-pattern/src/main/java/me/jmfs/pattern/factory" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/custom-design-patterns-01-plugin-pattern/src/main/java/me/jmfs/pattern/sdk" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.3770115" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
@@ -81,13 +110,7 @@
       <recent name="me.jmfs.pattern.plugin.rpc" />
       <recent name="me.jmfs.pattern.plugin.common" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/custom-design-patterns-01-plugin-pattern/src/main/java/me/jmfs/pattern/sdk" />
-      <recent name="$PROJECT_DIR$/custom-design-patterns-01-plugin-pattern/src/main/java/me/jmfs/pattern/service" />
-      <recent name="$PROJECT_DIR$/custom-design-patterns-01-plugin-pattern/src/main/java/me/jmfs/pattern/plugin/rpc" />
-      <recent name="$PROJECT_DIR$/custom-design-patterns-01-plugin-pattern/src/main/java/me/jmfs/pattern/plugin/common" />
-      <recent name="$PROJECT_DIR$/custom-design-patterns-01-plugin-pattern/src/main/java/me/jmfs/pattern" />
-    </key>
+    <key name="CopyFile.RECENT_KEYS" />
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -187,6 +210,8 @@
       <workItem from="1684121118829" duration="2960000" />
       <workItem from="1684128764467" duration="1838000" />
       <workItem from="1684226455361" duration="1285000" />
+      <workItem from="1684815630069" duration="4484000" />
+      <workItem from="1684828931913" duration="292000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 简单工厂模式">
       <created>1679045427822</created>
@@ -258,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683527820032</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="feat: 增加自调节LRU缓存；保证目标命中率的前提下，最大程度节省内存">
+      <created>1684722803173</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1684722803173</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,7 +328,8 @@
     <MESSAGE value="feat: 原型模式：浅拷贝、深拷贝" />
     <MESSAGE value="feat: 建造者模式" />
     <MESSAGE value="feat: 适配器模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 适配器模式" />
+    <MESSAGE value="feat: 增加自调节LRU缓存；保证目标命中率的前提下，最大程度节省内存" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 增加自调节LRU缓存；保证目标命中率的前提下，最大程度节省内存" />
   </component>
   <component name="WindowStateProjectService">
     <state x="448" y="103" key="#Project_Structure" timestamp="1679046425118">
@@ -319,42 +352,42 @@
       <screen x="0" y="25" width="1920" height="1000" />
     </state>
     <state x="698" y="276" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.205.1440.875/0.25.1920.1000@0.25.1920.1000" timestamp="1679399128418" />
-    <state width="1878" height="183" key="GridCell.Tab.0.bottom" timestamp="1683621280520">
+    <state width="1878" height="183" key="GridCell.Tab.0.bottom" timestamp="1684743382195">
       <screen x="0" y="25" width="1920" height="1000" />
     </state>
-    <state width="1878" height="183" key="GridCell.Tab.0.bottom/1920.205.1440.875/0.25.1920.1000@0.25.1920.1000" timestamp="1683621280520" />
-    <state width="1878" height="183" key="GridCell.Tab.0.center" timestamp="1683621280519">
+    <state width="1878" height="183" key="GridCell.Tab.0.bottom/1920.205.1440.875/0.25.1920.1000@0.25.1920.1000" timestamp="1684743382195" />
+    <state width="1878" height="183" key="GridCell.Tab.0.center" timestamp="1684743382194">
       <screen x="0" y="25" width="1920" height="1000" />
     </state>
-    <state width="1878" height="183" key="GridCell.Tab.0.center/1920.205.1440.875/0.25.1920.1000@0.25.1920.1000" timestamp="1683621280519" />
-    <state width="1878" height="183" key="GridCell.Tab.0.left" timestamp="1683621280519">
+    <state width="1878" height="183" key="GridCell.Tab.0.center/1920.205.1440.875/0.25.1920.1000@0.25.1920.1000" timestamp="1684743382194" />
+    <state width="1878" height="183" key="GridCell.Tab.0.left" timestamp="1684743382193">
       <screen x="0" y="25" width="1920" height="1000" />
     </state>
-    <state width="1878" height="183" key="GridCell.Tab.0.left/1920.205.1440.875/0.25.1920.1000@0.25.1920.1000" timestamp="1683621280519" />
-    <state width="1878" height="183" key="GridCell.Tab.0.right" timestamp="1683621280520">
+    <state width="1878" height="183" key="GridCell.Tab.0.left/1920.205.1440.875/0.25.1920.1000@0.25.1920.1000" timestamp="1684743382193" />
+    <state width="1878" height="183" key="GridCell.Tab.0.right" timestamp="1684743382194">
       <screen x="0" y="25" width="1920" height="1000" />
     </state>
-    <state width="1878" height="183" key="GridCell.Tab.0.right/1920.205.1440.875/0.25.1920.1000@0.25.1920.1000" timestamp="1683621280520" />
-    <state x="617" y="231" key="RollbackChangesDialog" timestamp="1679396357264">
+    <state width="1878" height="183" key="GridCell.Tab.0.right/1920.205.1440.875/0.25.1920.1000@0.25.1920.1000" timestamp="1684743382194" />
+    <state x="617" y="231" key="RollbackChangesDialog" timestamp="1684721196908">
       <screen x="0" y="25" width="1920" height="1000" />
     </state>
-    <state x="617" y="231" key="RollbackChangesDialog/1920.205.1440.875/0.25.1920.1000@0.25.1920.1000" timestamp="1679396357264" />
-    <state x="469" y="161" key="SettingsEditor" timestamp="1680601489638">
+    <state x="617" y="231" key="RollbackChangesDialog/1920.205.1440.875/0.25.1920.1000@0.25.1920.1000" timestamp="1684721196908" />
+    <state x="469" y="161" key="SettingsEditor" timestamp="1684721567790">
       <screen x="0" y="25" width="1920" height="1000" />
     </state>
-    <state x="469" y="161" key="SettingsEditor/1920.205.1440.875/0.25.1920.1000@0.25.1920.1000" timestamp="1680601489638" />
-    <state x="560" y="249" key="Vcs.Push.Dialog.v2" timestamp="1683527010670">
+    <state x="469" y="161" key="SettingsEditor/1920.205.1440.875/0.25.1920.1000@0.25.1920.1000" timestamp="1684721567790" />
+    <state x="560" y="249" key="Vcs.Push.Dialog.v2" timestamp="1684722808320">
       <screen x="0" y="25" width="1920" height="1000" />
     </state>
-    <state x="560" y="249" key="Vcs.Push.Dialog.v2/1920.205.1440.875/0.25.1920.1000@0.25.1920.1000" timestamp="1683527010670" />
+    <state x="560" y="249" key="Vcs.Push.Dialog.v2/1920.205.1440.875/0.25.1920.1000@0.25.1920.1000" timestamp="1684722808320" />
     <state x="756" y="307" key="chooseDestDirectoryDialog" timestamp="1679399148916">
       <screen x="0" y="25" width="1920" height="1000" />
     </state>
     <state x="756" y="307" key="chooseDestDirectoryDialog/1920.205.1440.875/0.25.1920.1000@0.25.1920.1000" timestamp="1679399148916" />
-    <state x="659" y="280" width="797" height="548" key="find.popup" timestamp="1683688030779">
+    <state x="659" y="280" width="797" height="548" key="find.popup" timestamp="1684721550153">
       <screen x="0" y="25" width="1920" height="1000" />
     </state>
-    <state x="659" y="280" width="797" height="548" key="find.popup/1920.205.1440.875/0.25.1920.1000@0.25.1920.1000" timestamp="1683688030779" />
+    <state x="659" y="280" width="797" height="548" key="find.popup/1920.205.1440.875/0.25.1920.1000@0.25.1920.1000" timestamp="1684721550153" />
     <state x="625" y="246" width="670" height="676" key="search.everywhere.popup" timestamp="1679569092570">
       <screen x="0" y="25" width="1920" height="1000" />
     </state>

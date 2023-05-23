@@ -1,2 +1,14 @@
-/.idea/*
-*/target/*
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.DS_Store
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr

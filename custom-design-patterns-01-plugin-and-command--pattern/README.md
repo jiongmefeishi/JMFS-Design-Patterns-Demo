@@ -59,3 +59,47 @@ public class ThirdLoginVerificationExtension extends AbstractExecutableExtension
 ```
 
 
+### Command模式,CQRS
+Command命令执行模式，职责分离，单独Command只执行自己的任务。
+
+cmd 案例: 根据传入的 length 返回长度固定的随机字符串
+1、定义 ExampleRandomStringByLengthCmd 继承 Command<Response>
+```java
+@AllArgsConstructor
+public class ExampleRandomStringByLengthCmd extends Command<String> {
+
+    private int contentLength;
+
+    @Override
+    public String doInvoke(CommandContext commandContext) {
+
+        // 可以通过 CommandContext 提供的getComponent方法，从Spring中捞取 bean 实例
+        // ExampleDao dao = commandContext.getComponent(ExampleDao.class);
+        // TODO 真实执行逻辑
+
+        return RandomUtil.randomString(contentLength);
+    }
+}
+```
+
+@Resource / @Autowired 引入命令执行器 CommandExecutor
+
+```java
+@Slf4j
+@Component
+public class CommandUseExample implements InitializingBean {
+
+    @Resource
+    private CommandExecutor commandExecutor;
+
+    @Override
+    public void afterPropertiesSet() throws Exception {
+
+        int length = 5;
+        String randomContent = commandExecutor.execute(new ExampleRandomStringByLengthCmd(length));
+        log.info("[CommandUseExample] exec cmd , random string content length is : {}, content is: {}", length,
+            randomContent);
+    }
+}
+```
+

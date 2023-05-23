@@ -3,8 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/JMFS-Design-Patterns-Demo.iml" filepath="$PROJECT_DIR$/.idea/JMFS-Design-Patterns-Demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/custom-design-patterns-01-plugin-pattern/custom-design-patterns-01-plugin-and-command-pattern.iml" filepath="$PROJECT_DIR$/custom-design-patterns-01-plugin-pattern/custom-design-patterns-01-plugin-and-command-pattern.iml" />
-      <module fileurl="file://$PROJECT_DIR$/custom-design-patterns-01-plugin-pattern/custom-design-patterns-01-plugin-pattern.iml" filepath="$PROJECT_DIR$/custom-design-patterns-01-plugin-pattern/custom-design-patterns-01-plugin-pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/custom-design-patterns-01-plugin-and-command-pattern.iml" filepath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/custom-design-patterns-01-plugin-and-command-pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/design-patterns-01-simple-factory-pattern/design-patterns-01-simple-factory-pattern.iml" filepath="$PROJECT_DIR$/design-patterns-01-simple-factory-pattern/design-patterns-01-simple-factory-pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/design-patterns-02-factory-method-pattern/design-patterns-02-factory-method-pattern.iml" filepath="$PROJECT_DIR$/design-patterns-02-factory-method-pattern/design-patterns-02-factory-method-pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/design-patterns-03-abstract-factory-pattern/design-patterns-03-abstract-factory-pattern.iml" filepath="$PROJECT_DIR$/design-patterns-03-abstract-factory-pattern/design-patterns-03-abstract-factory-pattern.iml" />
