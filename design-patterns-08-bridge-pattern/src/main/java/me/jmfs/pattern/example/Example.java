@@ -7,11 +7,12 @@ package me.jmfs.pattern.example;
  * @Url("https://gitee.com/jiongmefeishi")
  * @Description: 建造者模式来实现构建不同的电脑
  * <p>
- * 适配器模式(Adapter Pattern)：将一个接口转换成客户希望的另一个接口，使接口不兼容的那些类可以一起工作，其别名为包装器(Wrapper)。
- * 适配器模式既可以作为类结构型模式，也可以作为对象结构型模式。
+ * 桥接模式(Bridge Pattern)：将抽象部分与它的实现部分分离，使它们都可以独立地变化。
+ * 它是一种对象结构型模式，又称为柄体(Handle and Body)模式或接口(Interface)模式。
  * </p>
  */
 public class Example {
+    // Image充当抽象类，其子类JPGImage、PNGImage、BMPImage和GIFImage充当扩充抽象类；ImageImp充当实现类接口，其子类WindowsImp、LinuxImp和UnixImp充当具体实现类
 }
 
 //像素矩阵类：辅助类，各种格式的文件最终都被转化为像素矩阵，不同的操作系统提供不同的方式显示像素矩阵
