@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/design-patterns-05-prototype-pattern/design-patterns-05-prototype-pattern.iml" filepath="$PROJECT_DIR$/design-patterns-05-prototype-pattern/design-patterns-05-prototype-pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/design-patterns-06-builder-pattern/design-patterns-06-builder-pattern.iml" filepath="$PROJECT_DIR$/design-patterns-06-builder-pattern/design-patterns-06-builder-pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/design-patterns-07-adapter-pattern/design-patterns-07-adapter-pattern.iml" filepath="$PROJECT_DIR$/design-patterns-07-adapter-pattern/design-patterns-07-adapter-pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/design-patterns-08-bridge-pattern/design-patterns-08-bridge-pattern.iml" filepath="$PROJECT_DIR$/design-patterns-08-bridge-pattern/design-patterns-08-bridge-pattern.iml" />
     </modules>
   </component>
 </project>

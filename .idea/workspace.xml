@@ -26,49 +26,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6e0cec7-a1a4-4bb0-8059-a7ee982232a9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-patterns-07-adapter-pattern/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns-07-adapter-pattern/pom.xml" afterDir="false" />
-    </list>
-    <list id="3ae9fe37-b788-449b-af8a-2c814ddc9d91" name="feat: 自定义CQRS设计模式" comment="">
-      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/java/me/jmfs/pattern/sdk/command/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/java/me/jmfs/pattern/sdk/command/ComponentHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/java/me/jmfs/pattern/sdk/command/config/CommandConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/java/me/jmfs/pattern/sdk/command/config/CommandConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/java/me/jmfs/pattern/sdk/command/config/InternalCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/java/me/jmfs/pattern/sdk/command/context/CommandContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/java/me/jmfs/pattern/sdk/command/context/CommandContextFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/java/me/jmfs/pattern/sdk/command/context/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/java/me/jmfs/pattern/sdk/command/example/CommandUseExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/java/me/jmfs/pattern/sdk/command/example/ExampleRandomStringByLengthCmd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/java/me/jmfs/pattern/sdk/command/executor/CommandExecutable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/java/me/jmfs/pattern/sdk/command/executor/CommandExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/java/me/jmfs/pattern/sdk/command/executor/CommandExecutorInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/java/me/jmfs/pattern/sdk/command/executor/DefaultCommandExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/java/me/jmfs/pattern/sdk/command/interceptor/AbstractCommandInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/java/me/jmfs/pattern/sdk/command/interceptor/CommandContextInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/java/me/jmfs/pattern/sdk/command/interceptor/CommandInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/java/me/jmfs/pattern/sdk/command/invoker/DefaultCommandInvoker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/java/me/jmfs/pattern/sdk/command/listener/CommandListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/java/me/jmfs/pattern/sdk/common/CommonConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/java/me/jmfs/pattern/sdk/common/CommonException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/java/me/jmfs/pattern/sdk/common/CommonMd5HexKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/java/me/jmfs/pattern/sdk/common/CommonRestRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/java/me/jmfs/pattern/sdk/common/CommonRestResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/java/me/jmfs/pattern/sdk/common/CommonResultCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/java/me/jmfs/pattern/sdk/common/RestResponseUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/java/me/jmfs/pattern/sdk/error/ApiServerErrorCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/java/me/jmfs/pattern/sdk/error/CommonErrorCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/java/me/jmfs/pattern/sdk/error/IErrorCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/java/me/jmfs/pattern/service/Extension.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/java/me/jmfs/pattern/service/ExtensionDO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/java/me/jmfs/pattern/service/Plugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/java/me/jmfs/pattern/service/PluginDO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/java/me/jmfs/pattern/service/PluginDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/java/me/jmfs/pattern/service/PluginService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/java/me/jmfs/pattern/service/PluginServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/java/me/jmfs/pattern/service/cmd/QueryActivatedExtensionListCmd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-design-patterns-01-plugin-and-command--pattern/src/main/java/me/jmfs/pattern/service/convert/ExtensionConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-patterns-07-adapter-pattern/src/main/java/me/jmfs/pattern/example/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -201,7 +159,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="c6e0cec7-a1a4-4bb0-8059-a7ee982232a9" name="Default Changelist" comment="" />
-      <changelist id="3ae9fe37-b788-449b-af8a-2c814ddc9d91" name="feat: 自定义CQRS设计模式" comment="" />
+      <changelist id="" name="feat: 自定义CQRS设计模式" comment="" />
       <created>1679045091437</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -226,7 +184,7 @@
       <workItem from="1684128764467" duration="1838000" />
       <workItem from="1684226455361" duration="1285000" />
       <workItem from="1684815630069" duration="4484000" />
-      <workItem from="1684828931913" duration="1314000" />
+      <workItem from="1684828931913" duration="4943000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 简单工厂模式">
       <created>1679045427822</created>
@@ -319,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684830126982</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="feat: 自定义CQRS设计模式">
+      <created>1684831207319</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1684831207319</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -423,10 +388,10 @@
       <screen x="0" y="25" width="1920" height="1000" />
     </state>
     <state x="756" y="307" key="chooseDestDirectoryDialog/1920.205.1440.875/0.25.1920.1000@0.25.1920.1000" timestamp="1679399148916" />
-    <state x="659" y="280" width="797" height="548" key="find.popup" timestamp="1684830630632">
+    <state x="659" y="280" width="797" height="548" key="find.popup" timestamp="1684831053287">
       <screen x="0" y="25" width="1920" height="1000" />
     </state>
-    <state x="659" y="280" width="797" height="548" key="find.popup/1920.205.1440.875/0.25.1920.1000@0.25.1920.1000" timestamp="1684830630632" />
+    <state x="659" y="280" width="797" height="548" key="find.popup/1920.205.1440.875/0.25.1920.1000@0.25.1920.1000" timestamp="1684831053287" />
     <state x="625" y="246" width="670" height="676" key="search.everywhere.popup" timestamp="1679569092570">
       <screen x="0" y="25" width="1920" height="1000" />
     </state>
